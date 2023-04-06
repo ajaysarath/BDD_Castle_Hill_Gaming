@@ -1,0 +1,27 @@
+07/04/2023 01:15:38 AM: INFO: environment: before_scenario: Chrome Driver invoked
+07/04/2023 01:15:38 AM: INFO: logger: log: ====== WebDriver manager ======
+07/04/2023 01:15:38 AM: INFO: logger: log: Get LATEST chromedriver version for google-chrome 111.0.5563
+07/04/2023 01:15:39 AM: INFO: logger: log: Driver [C:\Users\ajay.sarath\.wdm\drivers\chromedriver\win32\111.0.5563\chromedriver.exe] found in cache
+07/04/2023 01:15:40 AM: INFO: SeleniumHelper: open_page: Opening page: https://www.saucedemo.com/
+07/04/2023 01:16:10 AM: INFO: SeleniumHelper: insert_text_in_input_field: Entering text: standard_user in locator: #user-name
+07/04/2023 01:16:12 AM: INFO: SeleniumHelper: insert_text_in_input_field: Entering text: secret_sauce in locator: #password
+07/04/2023 01:16:14 AM: INFO: SeleniumHelper: click: Clicking on: #login-button
+07/04/2023 01:16:14 AM: INFO: SeleniumHelper: get_text: Clicking on: //div[@class='app_logo']
+07/04/2023 01:16:14 AM: INFO: SeleniumHelper: get_text:  Text : Swag Labs
+07/04/2023 01:16:14 AM: INFO: login_steps: Main_Page: Swag Labs
+07/04/2023 01:16:14 AM: INFO: environment: after_scenario: Chrome Driver closed
+07/04/2023 01:16:16 AM: INFO: environment: before_scenario: Chrome Driver invoked
+07/04/2023 01:16:16 AM: INFO: logger: log: ====== WebDriver manager ======
+07/04/2023 01:16:17 AM: INFO: logger: log: Get LATEST chromedriver version for google-chrome 111.0.5563
+07/04/2023 01:16:17 AM: INFO: logger: log: Driver [C:\Users\ajay.sarath\.wdm\drivers\chromedriver\win32\111.0.5563\chromedriver.exe] found in cache
+07/04/2023 01:16:23 AM: INFO: SeleniumHelper: open_page: Opening page: https://www.saucedemo.com/
+07/04/2023 01:16:48 AM: INFO: SeleniumHelper: insert_text_in_input_field: Entering text: locked_out_user in locator: #user-name
+07/04/2023 01:16:50 AM: INFO: SeleniumHelper: insert_text_in_input_field: Entering text: secret_sauce in locator: #password
+07/04/2023 01:16:53 AM: INFO: SeleniumHelper: click: Clicking on: #login-button
+07/04/2023 01:16:53 AM: INFO: login_steps: verify_error_msg: Verify Error Message
+07/04/2023 01:16:53 AM: INFO: SeleniumHelper: wait_till_element_is_present: Waiting 10 seconds for element h3[data-test='error'] presence
+07/04/2023 01:16:53 AM: INFO: SeleniumHelper: wait_till_element_is_present: Element found
+07/04/2023 01:16:53 AM: INFO: SeleniumHelper: get_text: Clicking on: h3[data-test='error']
+07/04/2023 01:16:53 AM: INFO: SeleniumHelper: get_text:  Text : Epic sadface: Sorry, this user has been locked out.
+07/04/2023 01:16:53 AM: ERROR: login_steps: verify_error_msg: The Error message is incorrect
+07/04/2023 01:16:53 AM: INFO: environment: after_scenario: Chrome Driver closed
